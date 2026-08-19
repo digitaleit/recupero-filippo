@@ -14,11 +14,11 @@ I progressi, i punti e le risposte vengono salvati automaticamente nel browser d
 - Prova di Italiano: 25 agosto, 08:10–09:40
 - Prova di Matematica: 26 agosto, 08:10–10:30
 - Matematica e Italiano
-- 23 lezioni teoriche a livelli: 11 di Matematica e 12 di Italiano
-- 63 esercizi originali, almeno 2 per argomento, con hint progressivi e soluzioni ragionate
+- 29 lezioni teoriche a livelli: 14 di Matematica e 15 di Italiano
+- 87 esercizi originali, con problemi, testi completi, hint progressivi e soluzioni ragionate
 - Brani narrativi ed epici completi per Italiano, con analisi multilivello
 - Struttura didattica matematica ispirata alle lezioni YouMath: prerequisiti, metodo, casi, controllo ed errori
-- Timer, punti, badge e simulazioni d'esame
+- Timer, punti, badge e 5 simulazioni d'esame
 - Nessun account, backend o collegamento Internet richiesto
 
 Per ripartire da zero usa **Progressi → Azzera dati** (chiede conferma).
