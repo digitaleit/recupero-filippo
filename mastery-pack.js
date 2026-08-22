@@ -17,7 +17,7 @@ exercises.math.push(
  {t:'Frazione algebrica · prodotto',q:'Semplifica [(x²−4)/(x²−x−2)]·[(x−1)/(x+2)], indicando le C.E.',level:'AVANZATO',h:['Scomponi x²−4 e x²−x−2.','Conserva tutti i valori vietati dei denominatori originali.'],s:'C.E. x≠2,−1,−2. [(x−2)(x+2)/((x−2)(x+1))]·[(x−1)/(x+2)]=(x−1)/(x+1), con le C.E. originali.'},
  {t:'Equazione impossibile',q:'Risolvi e classifica: 5(2x−1)−3=10x+4.',level:'MEDIO',h:['Riduci il primo membro.','Ottieni −8=4.'],s:'10x−5−3=10x+4 → −8=4, uguaglianza falsa: equazione impossibile, nessuna soluzione.'},
  {t:'Equazione fratta · soluzione esclusa',q:'Risolvi (x+2)/(x−1)=3/(x−1).',level:'MEDIO',h:['C.E. x≠1.','Moltiplicando ottieni x+2=3.'],s:'C.E. x≠1. L’equazione produce x=1, ma è vietato. Quindi non esistono soluzioni.'},
- {t:'Disequazione fratta',q:'Risolvi (x−4)/(x+2)≥0.',level:'AVANZATO',h:['Punti critici: −2 vietato, 4 zero.','Studia i tre intervalli.'],s:'La frazione è positiva per x<−2 e x>4, nulla in x=4. Soluzione: x<−2 oppure x≥4.'},
+ {t:'Disequazione intera',q:'Risolvi 5−2(3x−1)>4x+7.',level:'AVANZATO',h:['Sviluppa prima la parentesi.','Porta i termini con x a sinistra e ricorda il cambio di verso se dividi per un numero negativo.'],s:'5−6x+2>4x+7 ⇒ −10x>0 ⇒ x<0.'},
  {t:'Problema · lavoro',q:'Due persone completano insieme 42 schede. Filippo ne completa 6 più del doppio dell’altra persona. Quante schede completa ciascuno?',level:'PROBLEMA',h:['Poni x le schede dell’altra persona.','x+(2x+6)=42.'],s:'3x+6=42 → x=12. L’altra persona completa 12 schede e Filippo 30. Controllo: 12+30=42.'},
  {t:'Problema · velocità media',q:'Un autobus percorre 180 km. Per i primi 60 km viaggia a 60 km/h; completa il viaggio in 3 ore. Qual è la velocità media nei restanti 120 km?',level:'PROBLEMA',h:['I primi 60 km richiedono 1 ora.','Restano 120 km e 2 ore.'],s:'Tempo residuo 3−1=2 ore. Velocità nei restanti 120 km: 120/2=60 km/h.'},
  {t:'Geometria · angoli esterni',q:'In un triangolo due angoli interni misurano 48° e 67°. Calcola il terzo angolo e l’angolo esterno a esso adiacente.',level:'MEDIO',h:['La somma interna è 180°.','L’angolo esterno è supplementare al terzo interno.'],s:'Terzo angolo=180°−48°−67°=65°. Esterno adiacente=180°−65°=115°, uguale anche alla somma dei due interni non adiacenti.'},
@@ -66,7 +66,7 @@ examSets.mathC={title:'Matematica · Simulazione C',minutes:120,questions:[
  ['Ruffini','Scomponi x³+x²−4x−4.','Raccoglimento parziale o Ruffini: (x+1)(x²−4)=(x+1)(x−2)(x+2).'],
  ['Frazioni algebriche','Semplifica (x²−1)/(x²+2x+1) e indica le C.E.','C.E. x≠−1. Risultato (x−1)/(x+1).'],
  ['Equazione fratta','Risolvi (x+3)/(x−2)=2.','C.E. x≠2. x+3=2x−4 → x=7, ammesso.'],
- ['Disequazione fratta','Risolvi (x−1)/(x+3)<0.','Punti −3 e 1; soluzione −3<x<1.'],
+ ['Disequazione intera','Risolvi 4−3(2x−1)≤2(x+5).','7−6x≤2x+10 ⇒ −8x≤3 ⇒ x≥−3/8.'],
  ['Problema','Il triplo di un numero diminuito di 4 è uguale al numero aumentato di 18. Trovalo.','3x−4=x+18 → 2x=22 → x=11.'],
  ['Geometria','Un triangolo isoscele ha angolo al vertice di 38°. Calcola gli angoli alla base e l’esterno adiacente a uno di essi.','Angoli alla base 71°; esterno 109°.']
 ]};
